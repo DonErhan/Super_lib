@@ -7,8 +7,10 @@ setup(
     author_email="docker.andrei@gmail.com",
     url="",
     description="Description of lib",
-    packages=find_packages(),
+    package_dir={"": "src"},
+    packages=find_packages(where='src'),
     py_modules=['src'],
+
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
