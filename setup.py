@@ -7,8 +7,7 @@ setup(
     author_email="docker.andrei@gmail.com",
     url="",
     description="Description of lib",
-    # packages=find_packages(),
-    packages = ['Superlib'],
+    packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
