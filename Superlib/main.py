@@ -1,7 +1,7 @@
 import requests as rq
 from tqdm import tqdm
 
-def main():
+def download():
 
     url = "https://drive.usercontent.google.com/download?id=1-DBKQE781Srff7_mjManONfDNU2_UplL&export=download&confirm=t&uuid=c69f5bc5-2fdf-418d-b421-6f9eb333ba9c&at=APZUnTVIhFUteDEZnPOH5dCRMBdH%3A1708075075180"
 
@@ -26,6 +26,3 @@ def main():
         print("Download complete")
     else:
         print("Failed to download file. Status code:", resp.status_code)
-
-if __name__ == "__main__":
-    main()
